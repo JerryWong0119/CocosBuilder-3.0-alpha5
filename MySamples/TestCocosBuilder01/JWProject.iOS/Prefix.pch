@@ -1,0 +1,15 @@
+/**
+ * File: Prefix.pch
+ *
+ * @author JerryWong (13434260260@163.com)
+ *
+ */
+
+//
+// Prefix header for all source files of the 'iphone' target in the 'iphone' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
